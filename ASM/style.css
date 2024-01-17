@@ -18,7 +18,7 @@ a {
     align-items: center;
 }
 .container{
-    max-width: 1100px;
+    max-width: 1248px;
     margin: 0 auto;
 }
 .link,
@@ -50,4 +50,32 @@ a {
     font-style: normal;
     line-height: 160%;
     width: 555px;
+    padding-bottom: 40px ;
+}
+button {
+    font-size: 18px;
+    padding: 16px 32px;
+    border-radius: 16px;
+    border: none;
+}
+.btn-group{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+.btn-get{
+    background-color: #4891ff;
+    color: #F5F5F5; 
+    font-weight: 500;
+}
+.btn-book{
+background-color: #F5F5F5;
+color: #131316;
+font-weight: 500;
+}
+.hero{
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 730px;
+    background-image: url("../images/hero-bg.png");
 }
