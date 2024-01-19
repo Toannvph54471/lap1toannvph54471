@@ -78,4 +78,33 @@ font-weight: 500;
     background-repeat: no-repeat;
     height: 730px;
     background-image: url("../images/hero-bg.png");
+    
+}
+.video{
+    width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+    background: #131316;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 963px;
+    background-image: url("../images/Video\ \(1\).png");
+}
+.heading{
+color: #F5F5F5;
+font-size: 48px;
+font-weight: 500;
+line-height: 170%;
+letter-spacing: -1px;
+}
+.btn-video{
+    display: flex;
+    max-width: 1440px;
+    background-color: #4891ff;
+    color: #F5F5F5;
+    position: relative;
+    top: 725px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
 }
