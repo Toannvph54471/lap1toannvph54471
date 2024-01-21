@@ -108,3 +108,62 @@ letter-spacing: -1px;
     bottom: 0;
     transform: translateX(-50%);
 }
+footer {
+    width: 1440px;
+height: 579px;
+background-color: #131316;
+margin: 0 auto;
+}
+.picture{
+    display: flex;
+justify-content: space-between;
+align-items:flex-start;
+padding: 78px 109px 15px;
+height: 20px;
+}
+.button-container {
+    position: relative;
+    width: 401px;
+    height: 205px;
+    background-color:#F5F5F5;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: left;
+}
+.btn-footer{
+    padding: 12px 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #F5F5F5;
+    background-color: #4891ff;
+}
+.heading-footer{
+    font-size:20px ;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+}
+.text-email{
+display: flex;
+justify-content: left;
+padding: 12px 24px 12px 12px;
+border-radius: 8px;
+gap: 10px;
+}
+.form-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px;
+}
+.back{
+    font-size: 16px;
+    font-weight: 400;
+    color: #F5F5F5;
+}
+.link:hover,
+.back:hover{
+    color: #4891ff;
+    opacity: 0.8;
+    transition: 0.5s;}
