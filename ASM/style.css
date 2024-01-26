@@ -96,6 +96,10 @@ font-size: 48px;
 font-weight: 500;
 line-height: 170%;
 letter-spacing: -1px;
+max-width: 767px;
+max-height: 118px;
+text-align: center;
+margin: 0 auto;
 }
 .btn-video{
     display: flex;
