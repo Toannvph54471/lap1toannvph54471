@@ -57,7 +57,7 @@ border-bottom:2px solid #1890ff ;
 
 }
 .Postcode{
-    padding: 12px 27px;border:0;
+    padding: 12px 21px;border:0;
     outline: 0;
     border-bottom:2px solid #1890ff ;
 }
@@ -129,9 +129,11 @@ font-weight: 400;
     max-width: 544px;
   }
 .google-map{
-    width: 638px;
-height: 819px;
+    max-width: 700px
 }
 .item-end{
     display: flex;
+    border-radius: 16px;
+    justify-content: space-around;
+    align-items: center;
 }
