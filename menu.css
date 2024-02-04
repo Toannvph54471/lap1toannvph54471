@@ -9,6 +9,9 @@ img.img{
     font-weight: 700;
     color: orangered;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .pic{
     text-align: center;
