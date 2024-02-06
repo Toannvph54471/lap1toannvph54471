@@ -14,9 +14,10 @@ a {
     list-style: none;
     text-decoration: none;
 }
-.heading-logo{
+
+.heading-logo {
     width: 202px;
-height: 33px;
+    height: 33px;
 }
 
 .menu-list {
@@ -31,13 +32,15 @@ height: 33px;
     text-decoration: none;
     display: flex;
 }
-.btn-signin{
+
+.btn-signin {
     border: none;
     color: #55557A;
     font-size: 22px;
     font-weight: 500;
     background-color: #fff;
 }
+
 .btn-contact {
     border: none;
     font-size: 22px;
@@ -48,20 +51,23 @@ height: 33px;
     background: #7F56D9;
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
 }
-.join-as{
+
+.join-as {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
-.content{
+
+.content {
     font-family: 'Caladea', serif;
     font-size: 70px;
     font-weight: 700;
     text-align: center;
     max-width: 1040px;
 }
-.para{
+
+.para {
     font-size: 25px;
     font-weight: 500;
     max-width: 1040px;
@@ -69,29 +75,101 @@ height: 33px;
     color: #7E7EAA;
     margin-top: -10px;
 }
-.btn-join{
+
+.btn-join {
     display: flex;
     gap: 42px;
 }
-.btn-instructor{
+
+.btn-instructor {
     border: none;
     width: 297px;
     height: 80px;
     padding: 25px 18px;
-    background-color:#FF6905 ;
+    background-color: #FF6905;
     border-radius: 40px;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
 }
-.btn-student{
+
+.btn-student {
     border: none;
     width: 297px;
     height: 80px;
     padding: 25px 18px;
-    background-color:#7F56D9 ;
+    background-color: #7F56D9;
     border-radius: 40px;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
+}
+
+/* product card */
+.product-card {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    width: 520px;
+    height: 610px;
+}
+
+.item-product {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.product-title {
+    font-family: 'Caladea', serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+
+.line {
+    border: 1px solid #DADAF7;
+    width: 443px;
+}
+
+.name-pro {
+    display: flex;
+    flex-direction: column;
+}
+
+.avata {
+    display: flex;
+    gap: 10px;
+}
+
+.product-avt {
+    display: flex;
+    gap: 200px;
+    padding-top: 30px;
+}
+
+.btn-product {
+    border: none;
+    width: 105px;
+    height: 35px;
+    top: 1870px;
+    left: 507px;
+    border-radius: 17.5px;
+    color: #fff;
+    background: #24D198;
+}
+
+.pro-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1920px;
+    height: 1750px;
+    top: 1006px;
+    border-radius: 0px, 100px, 0px, 100px
 }
