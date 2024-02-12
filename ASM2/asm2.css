@@ -8,6 +8,7 @@ body {
     max-width: 1440px;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 a {
@@ -57,6 +58,7 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    padding-bottom: 25px;
 }
 
 .content {
@@ -171,5 +173,23 @@ a {
     width: 1920px;
     height: 1750px;
     top: 1006px;
-    border-radius: 0px, 100px, 0px, 100px
+    border-radius: 0px, 100px, 0px, 100px;
+    margin: 0 auto;
+}
+.product-head1{
+    font-family: 'Caladea', serif;
+        font-size: 50px;
+        font-weight: 700;
+        margin-left: 550px;
+        display: flex;
+        padding-top: 30px;
+}
+.product-head2{
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    margin-left: 550px;
+    color: #7E7EAA;
+    padding-bottom: 100px;
+    padding-top: 10px;
 }
